@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:background="#fff"
     android:fitsSystemWindows="true">
+    <!-- android:fitsSystemWindows="true"让系统状态栏与布局"适合"-->
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#8000">
+        android:background="#1C86EE">
 
         <TextView
             android:id="@+id/title_text"

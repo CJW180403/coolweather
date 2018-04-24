@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fitsSystemWindows="true">
-    <!-- android:fitsSystemWindows="true"为系统状态栏单独留出-->
+    <!-- android:fitsSystemWindows="true"让系统状态栏与布局"适合"-->
 
                     <include layout="@layout/title" />
 
